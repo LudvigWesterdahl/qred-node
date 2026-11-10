@@ -76,8 +76,11 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
+# Local secrets (DATABASE_URL password, PORT)
 .env
+
+# Local npm cache (used so install does not need ~/.npm)
+.npm-cache/
 .env.development.local
 .env.test.local
 .env.production.local
